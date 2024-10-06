@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Welcome to my blog
+title: 'Hello, world'
 date: {}
 ---
-
-### Hello, world
 
 This is a placeholder for my introductory post.
