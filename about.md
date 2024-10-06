@@ -6,7 +6,7 @@ permalink: /about/
 
 A blog detailing my journey learning Cyber Security
 
-Theorore Gericault was a famous artist; his work 'the raft of medusa' details that the journey is only half the fun.
+Theodore Gericault was a famous artist; his work 'the raft of medusa' details that the journey is only half the fun.
 
 ### Contact me
 
