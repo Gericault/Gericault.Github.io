@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Linux quick start reference
-date: '2024-10-06 18:30:00 +0930'
-Excerpt: A crash course to getting started with the Linux CLI
+date: 2024-10-06 18:30:00 +0930
 ---
 ### A quick crash course to using the Linux command line interface (CLI)
-
+I will show you how to do the following:
 - Navigate the file system
 - Read files
 - Manage the file system
 - Filter content
-- Manage users and their permissions
 - Get help in Linux
 
 ### Navigating the file system

@@ -9,3 +9,11 @@ Gemfile.lock
 node_modules
 package.json
 _posts/.obsidian/
+
+.obsidian/app.json
+
+.obsidian/appearance.json
+
+.obsidian/core-plugins-migration.json
+
+.obsidian/core-plugins.json
