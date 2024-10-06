@@ -17,7 +17,7 @@ Excerpt: A crash course to getting started with the Linux CLI
 
 The following commands are used to navigate the Linux file system;
 
-**cd** - Navigates between directories
+**cd - change directory**
 
 
 `cd reports`
@@ -33,7 +33,7 @@ navigates to the reports directory; the full pathname is required when reports i
 
 Navigates to the directory that is one level above the current working directory
 
-**ls** - displays the names of files and directories
+**ls - displays the names of files and directories**
 
 `ls \home\cale\reports`
 
@@ -51,13 +51,13 @@ Displays permissions to files and directories in the current working directory; 
 
 displays permissions to files and directories in the current working directoy; including hidden files. Also displays other additional information. This argument is a combination of both -a and -l and combines the output of both.
 
-**pwd** - prints the working directory to the screen
+**pwd - prints the working directory to the screen**
 
 `pwd`
 
 Prints the current working directory to screen, such as \home\cale
 
-**whoami** - returns the username of the current user
+**whoami - returns the username of the current user**
 
 `whoami`
 
@@ -66,13 +66,13 @@ returns the current username, such as cale or admin.
 ### Reading files
 The following details commands that are helpful when reading files
 
-**cat** - displays the contents of a file
+**cat - displays the contents of a file**
 
 `cat updates.txt`
 
 displays the content of the updates.txt file
 
-**head** - displays the first 10 lines of a file
+**head - displays the first 10 lines of a file**
 
 `head updates.txt`
 
@@ -82,3 +82,19 @@ displays the first 10 lines of the updates.txt file
 
 displays only the first 5 lines of the file.
 the -n option allows the user to specify the _number_ of lines to return.
+
+less - returns the content of a file one page at a time
+
+`less updates.txt`
+
+returns the content of updates one page at a time; the less command changes the terminal window to a display which allows users to easily move forward and backward through content.
+
+**tail - displays the last 10 lines of a file**
+
+`tail updates.txt`
+
+displays the last 10 lines of the updates.txt file
+
+`tail -n 5 updates.txt`
+
+returns the last 5 lines of updates.txt. The -n option allows the user to specify the number of lines to return.
