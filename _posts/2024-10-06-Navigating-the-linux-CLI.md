@@ -50,3 +50,20 @@ Prints the current working directory to screen, such as \home\cale
 
 ```whoami```
 returns the current username, such as cale or admin.
+
+### Reading files
+The following details commands that are helpful when reading files
+
+**cat** - displays the contents of a file
+
+```cat updates.txt```
+displays the content of the updates.txt file
+
+**head** - displays the first 10 lines of a file
+
+```head updates.txt```
+displays the first 10 lines of the updates.txt file
+
+```head -n 5 updates.txt```
+displays only the first 5 lines of the file.
+the -n option allows the user to specify the _number_ of lines to return.
