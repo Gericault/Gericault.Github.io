@@ -20,7 +20,7 @@ The following commands are used to navigate the Linux file system;
 **cd - change directory**
 
 
-`cd reports`
+`cd reports`sz
 
 navigates from the current working directory to its subdirectory reports
 
@@ -98,3 +98,40 @@ displays the last 10 lines of the updates.txt file
 `tail -n 5 updates.txt`
 
 returns the last 5 lines of updates.txt. The -n option allows the user to specify the number of lines to return.
+
+### Filter content
+These commands are useful for filtering content.
+
+**find - searches for directories and files that meet the specified criteria**
+
+`find \home\cale\projects`
+
+searches for all files starting at the projects directory
+
+`find \home\cale\projects -iname "*log*"`
+
+searches for all files in the projects directory that contain the work log in the filename.
+-iname searches for a specified string and is not case-sensitive; * is a wildcard and can represent zero or more unknown characters.
+
+`find \home\cale\analyst\projects -mtime -3`
+
+Searches for all files in the projects directory that have been modified within the past 3 days.
+-mtime bases its search for files or directories that were modifed within the specified number of days.
+
+`find \home\cale\projects -nmin -15`
+
+Searches for all files in the projects directory that have been modified within the past 15 minutes.
+-nmin bases its search for files or directories that were modified within the specified number of minutes.
+
+**grep - searches within a specified file and returns all lines containing a specified string.**
+
+`grep OS updates.txt`
+
+searches the updates.txt file and returns all lines containing the string OS
+
+**| (piping) - sends the output of one command as the input of another command for further processing.**
+
+`ls \home\analyst\reports | grep users`
+
+redirects the standard output of ls \home\analyst\reports to be standard input for the grep users command, meaning the grep users identifies files and subdirectories in the \home\analyst\reports directory that contain the string users within their filename.
+
