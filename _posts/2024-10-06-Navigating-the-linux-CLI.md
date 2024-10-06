@@ -129,7 +129,7 @@ Searches for all files in the projects directory that have been modified within 
 
 searches the updates.txt file and returns all lines containing the string OS
 
-**piping (|) - sends the output of one command as the input of another command for further processing.**
+**\|\ (piping) - sends the output of one command as the input of another command for further processing.**
 
 `ls \home\analyst\reports | grep users`
 
