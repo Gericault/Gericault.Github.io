@@ -19,12 +19,12 @@ The following commands are used to navigate the Linux file system;
 
 **cd** - Navigates between directories
 
-```Javascript
+```
 cd reports
 ```
 navigates from the current working directory to its subdirectory reports
 
-```Elixir
+```
 cd \home\cale\reports
 ```
 navigates to the reports directory; the full pathname is required when reports is not a subfirectory of the current working directory
