@@ -20,7 +20,9 @@ The following commands are used to navigate the Linux file system;
 **cd - change directory**
 
 
-`cd reports`
+```PowerShell
+cd reports
+```
 
 navigates from the current working directory to its subdirectory reports
 
