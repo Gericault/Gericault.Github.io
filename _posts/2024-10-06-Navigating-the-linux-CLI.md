@@ -113,7 +113,7 @@ searches for all files starting at the projects directory
 searches for all files in the projects directory that contain the work log in the filename.
 -iname searches for a specified string and is not case-sensitive; * is a wildcard and can represent zero or more unknown characters.
 
-`find \home\cale\analyst\projects -mtime -3`
+`find \home\cale\projects -mtime -3`
 
 Searches for all files in the projects directory that have been modified within the past 3 days.
 -mtime bases its search for files or directories that were modifed within the specified number of days.
@@ -133,5 +133,5 @@ searches the updates.txt file and returns all lines containing the string OS
 
 `ls \home\analyst\reports | grep users`
 
-redirects the standard output of ls \home\analyst\reports to be standard input for the grep users command, meaning the grep users identifies files and subdirectories in the \home\analyst\reports directory that contain the string users within their filename.
+redirects the standard output of ls \home\cale\reports to be standard input for the grep users command, meaning the grep users identifies files and subdirectories in the \home\cale\reports directory that contain the string users within their filename.
 
