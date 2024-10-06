@@ -137,3 +137,5 @@ searches the updates.txt file and returns all lines containing the string OS
 
 redirects the standard output of ls \home\cale\reports to be standard input for the grep users command, meaning the grep users identifies files and subdirectories in the \home\cale\reports directory that contain the string users within their filename.
 
+> [!NOTE]  
+> There is a lot that you can do with piping, It is crucial to understand the basic concept as we will be using this later.
