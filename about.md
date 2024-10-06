@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A blog detailing my journey learning Cyber Security
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Theorore Gericault was a famous artist; his work 'the raft of medusa' details that the journey is only half the fun.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[CaleFrend@Live.com.au](mailto:CaleFrend@Live.com.au)
