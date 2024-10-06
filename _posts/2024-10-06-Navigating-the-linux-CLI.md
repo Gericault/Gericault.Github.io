@@ -19,7 +19,7 @@ The following commands are used to navigate the Linux file system;
 
 **cd - change directory**
 
-{% highlight powershell %}
+{% highlight shell %}
   cd reports
 {% endhighlight %}
 
