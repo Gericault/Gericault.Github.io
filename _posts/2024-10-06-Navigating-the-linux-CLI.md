@@ -18,7 +18,7 @@ The following commands are used to navigate the Linux file system;
 
 **cd** - Navigates between directories
 
-	cd reports
+```cd reports```
 navigates from the current working directory to its subdirectory reports
 
 	cd \home\cale\reports
