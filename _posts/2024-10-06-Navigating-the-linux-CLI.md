@@ -1,5 +1,7 @@
 ---
 title: Navigating Linux CLI
+layout: post
+date: '2024-10-06 19:30:00 +0930'
 ---
 ## A quick crash course to using the Linux command line interface
 
