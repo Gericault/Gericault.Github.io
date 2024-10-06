@@ -3,7 +3,7 @@ title: Navigating Linux CLI
 layout: post
 date: '2024-10-06 19:30:00 +0930'
 ---
-## A quick crash course to using the Linux command line interface
+### A quick crash course to using the Linux command line interface
 
 - Navigate the file system
 - Read files
@@ -12,7 +12,7 @@ date: '2024-10-06 19:30:00 +0930'
 - Manage users and their permissions
 - Get help in Linux
 
-# Navigating the file system
+### Navigating the file system
 
 The following commands are used to navigate the Linux file system;
 
