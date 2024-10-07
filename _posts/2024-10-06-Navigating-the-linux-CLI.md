@@ -263,7 +263,7 @@ ls \home\analyst\reports | grep users
 
 redirects the standard output of ls \home\cale\reports to be standard input for the grep users command, meaning the grep users identifies files and subdirectories in the \home\cale\reports directory that contain the string users within their filename.
 
-{% include note.html content="There is a lot that you can do with piping, It is crucial to understand the basic concept as we will be using this later." %}
+**There is a lot that you can do with piping, It is crucial to understand the basic concept as we will be using this later.**
 
 ### Get help in Linux
 The following commands are useful when getting help in Linux.
