@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0f0f91106ca79c3",
+        "id": "b694712e9a58e634",
         "type": "tabs",
         "children": [
           {
-            "id": "a0cba4d1b91da035",
+            "id": "9129a366329fc4ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-06-Navigating-the-linux-CLI.md",
+                "file": "_posts/2024-10-07-Managining-users-Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-06-Navigating-the-linux-CLI.md",
+                "file": "_posts/2024-10-07-Managining-users-Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-06-Navigating-the-linux-CLI.md",
+                "file": "_posts/2024-10-07-Managining-users-Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-06-Navigating-the-linux-CLI.md"
+                "file": "_posts/2024-10-07-Managining-users-Linux.md"
               }
             }
           }
@@ -146,8 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0cba4d1b91da035",
+  "active": "9129a366329fc4ca",
   "lastOpenFiles": [
+    "_site/Managining-users-Linux/index.html",
+    "_site/Managining-users-Linux",
+    "_site/images/ls-la.png",
+    "images/ls-la.png",
+    "_site/Navigating-the-linux-CLI-1/index.html",
+    "_site/Navigating-the-linux-CLI-1",
+    "_posts/2024-10-06-Navigating-the-linux-CLI.md",
+    "_posts/2024-10-07-Managining-users-Linux.md",
+    "_posts/2014-3-3-Hello-World.md",
+    "{{.md",
+    "_site/{{.md",
+    "_site/images/cd-reports.png",
+    "images/cd-reports.png",
     "_includes/note.html"
   ]
 }

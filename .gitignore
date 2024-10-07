@@ -17,3 +17,5 @@ _posts/.obsidian/
 .obsidian/core-plugins-migration.json
 
 .obsidian/core-plugins.json
+
+.obsidian/workspace.json
